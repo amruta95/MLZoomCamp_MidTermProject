@@ -1,0 +1,16 @@
+Hello everyone,
+
+For my Mid-Term Project, we will need the below libraries to be installed.
+
+
+Library Installations:
+● Numpy
+  Command : pip install numpy
+● Pandas 
+  Command : pip install pandas
+● scikit-learn
+  Command : pip install -U scikit-learn
+● spacy
+  Command : pip install -U spacy 
+  (An additional installation is required with spacy, please run the below command as well)
+  Command : python -m spacy download en_core_web_sm

@@ -1,16 +1,25 @@
-# MLBookCamp_MidTermProject
+# Machine Learning ZoomCamp: Mid-Term Project
+Hello guys, this repository contains the work carried out as a part of the Mid-Term Project for the course Machine Learning ZoomCamp. This course is organized and conducted by Mr. Alexey Grigorev
 
-# Overview
+#### Links to this course material:
+[DataTalksClub](https://datatalks.club/courses/2021-winter-ml-zoomcamp.html) <br>
+[Machine Learning ZoomCamp Course Material](https://github.com/alexeygrigorev/mlbookcamp-code/tree/master/course-zoomcamp)
+
+## Content
+ 1. Problem Description
+ 2. Files Description
+ 3. Virtual Environment and Package dependencies
+ 4. Steps to run the code
+ 5. Results and Prediction
+
+
+# 1. Problem Description and Background
 Nowadays, arguing without committing a fallacy is one of the main requirements of an ideal debate.But even when debating rules are strictly enforced and fallacious arguments punished, arguers often lapse into attacking the opponent by an ad-hominem argument.
 When challenged by genuine back-and-forth argumentation, humans do better in both generating and evaluating arguments. The dialogical perspective on argumentation has been reflected in argumentation theory prominently by the pragma-dialectic model of argumentation.
+Change My View (CMV) is an online platform for good-faith argumentation.A user posts a submission (also called original post(er); OP) and other participants provide arguments to change the OP’s view, forming a typical tree-form Web discussion. This project is on ad-hominem predictions of dialogues in the online interactions by users. This is done as part of a Machine Learning course held by Mr. Alexey Grigorev. The dataset used in this project is added in files above.
+Many people are vocal with their ideas about various news, articles or posts online. There is a high possibility of the online interactions between users to turn into ad-hominem(rude) conversations. Since, people have unique opinions there can be a difference of viewpoints between them. In such scenarios they tend to write abusive or rude comments which in turn changes the conversation into a toxic one. In this project, we are predicting the outcome of dialogues, if they are ad-hominem or not.
 
-
-Change My View (CMV) is an online platform for good-faith argumentation.A user posts a submission (also called original post(er); OP) and other participants provide arguments to change the OP’s view, forming a typical tree-form Web discussion. This project is on ad-hominem predictions of dialogues in the online interactions by users. This is done as part of a Machine Learning course held by Mr. Alexey Grigorev. This is the [dataset](https://panda.uni-paderborn.de/pluginfile.php/1752026/mod_resource/content/1/test-data-prepared.json) used for this project.
-
-# Problem Description
-Nowadays, many people are vocal with their ideas about various news, articles or posts online. There is a high possibility of the online interactions between users to turn into ad-hominem(rude) conversations. Since, people have unique opinions there can be a difference of viewpoints between them. In such scenarios they tend to write abusive or rude comments which in turn changes the conversation into a toxic one. In this project, we are predicting the outcome of dialogues, if they are ad-hominem or not.
-
-# Folder Contents
+# 2. Files Description
 The folder contains the following files:
 
 - MidTerm_Project_Script.ipynb :
@@ -29,7 +38,7 @@ The folder contains the following files:
 - train-data-prepared : Split dataset for training.
 - val-data-prepared : Split dataset for validation.
 
-# Steps to run the code
+# 4. Steps to run the code
 - Clone the folder to your local device. <br>
   Command : git clone https://github.com/amruta95/MLBookCamp_MidTermProject.git
 - Else, you can download the **MLBoot** zip folder to your local device. Extract the contents of the folder loacally.
@@ -51,7 +60,7 @@ test file.
     Example:<br>
     $ python eval.py -t val-data-prepared.json -p predictions_svm.json
   
-# Results 
+# 5. Results 
 
 ## Prediction Scores 
 After training on all six classifiers, I found out that the best performing model is SVM with a f1 score of 0.70 on the validation dataset.
